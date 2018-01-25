@@ -37,7 +37,7 @@ public class MainActivity extends Activity implements TextView.OnEditorActionLis
 
     @Override
     public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-        //add calculatedAndDisplay
+        calculateAndDisplay();
 
         return false;
     }
